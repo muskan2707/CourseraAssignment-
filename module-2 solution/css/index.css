@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+p{
+	position:relative;
+    border: 1px solid black;
+    background-color: #BCBCBC;
+    width: 90%;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 21px;
+    overflow: hidden;
+    margin-top: 12px;
+    margin-bottom: 40px;
+   
+ }
+
+span#myp{
+
+color:blue;
+font-weight:bold;
+float:right;
+background-color:red;
+border: 1px solid black;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+span#myk{
+
+color:blue;
+font-weight:bold;
+float:right;
+background-color:yellow;
+border: 1px solid black;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+
+span#mys{
+
+color:blue;
+font-weight: bold;
+float:right;
+background-color:pink;
+border:1px solid black;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+span#mytext{
+
+
+font-size:15px;
+color: black;
+overflow: hidden;
+
+
+}
+
+.row{
+	width:100%;
+}
+
+/*large width*/
+@media (min-width: 992px){
+  .col-lg-4 {
+    float: left;
+ }
+ 
+ .col-lg-4 {width: 33.33%;}
+}
+
+    /* medium width*/
+@media (min-width: 768px) and (max-width: 991px){
+ .col-md-6,.col-md-12{
+	float:left;
+}
+.col-md-6 {width: 50%;}
+.col-md-12 {width: 100%;}
+
+}
+
+
