@@ -1,0 +1,35 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+
+#myblock{
+	background-color: #BCBCBC;
+    width: 90%;
+    height: 1000px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 40px;
+   
+    overflow:scroll;
+    
+ }
+
+#myp{
+color:black;
+font-weight:bold;
+padding-left: 15px;
+padding-right: 15px;
+font-size: 30px;
+f
+}
+
+div#mytext{
+font-size:20px;
+color: black;
+
+
+}
